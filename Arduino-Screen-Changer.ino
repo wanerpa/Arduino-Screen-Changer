@@ -95,3 +95,7 @@ void showSettingsScreen() {
   display.setCursor(12, 40);
   display.println("Press to restart");
 }
+
+ display.setTextSize(2);
+  display.setCursor(10, 8);
+  display.println("SETTINGS");
